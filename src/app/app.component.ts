@@ -12,12 +12,12 @@ export class AppComponent {
   desactivado = true;
   nombre: string = '';
   paises: any = [
-    {activo: true, nombre: 'Colombia'},
-    {activo: true, nombre: 'Brasil'},
-    {activo: false, nombre: 'Argentina'},
-    {activo: true, nombre: 'Polonia'},
-    {activo: false, nombre: 'Alemania'},
-    {activo: true, nombre: 'Francia'}
+    {activo: true, nombre: 'Colombia', cercano: 1},
+    {activo: true, nombre: 'Brasil', cercano: 1},
+    {activo: false, nombre: 'Argentina', cercano: 2},
+    {activo: true, nombre: 'Polonia', cercano: 3},
+    {activo: false, nombre: 'Alemania', cercano: 3},
+    {activo: true, nombre: 'Francia', cercano: 3}
   ]
   lat:Number = 51.678418;
   lng:number = 7.809007;
